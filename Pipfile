@@ -11,6 +11,8 @@ pil = "*"
 numpy = "*"
 cv2 = "*"
 opencv-python = "*"
+dhash = "*"
+imagehash = "*"
 
 [requires]
 python_version = "3.6"
