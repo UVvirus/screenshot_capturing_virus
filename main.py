@@ -95,7 +95,7 @@ def d_hash(image1, image2):
 
     """"
     compares two images using "Difference Hash" algorithm
-    if images two images are same it'll delete one image
+    if two images are same it'll delete one image
     else two images are stored
     """""
 
