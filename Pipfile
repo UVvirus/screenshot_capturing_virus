@@ -8,6 +8,12 @@ verify_ssl = true
 [packages]
 pillow = "*"
 pil = "*"
+numpy = "*"
+cv2 = "*"
+opencv-python = "*"
+dhash = "*"
+imagehash = "*"
+requests = "*"
 
 [requires]
 python_version = "3.6"
