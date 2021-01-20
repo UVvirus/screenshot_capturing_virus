@@ -26,6 +26,9 @@ First step is to change the email and password in the code as described in below
 
 ![Alt Text](https://github.com/UVvirus/screenshot_grabber/blob/master/Screenshot%20gfrom%202021-01g-20%2009-41-19.png)
 
+
+![Alt Text](https://github.com/UVvirus/screenshot_grabber/blob/master/Screenshot%20from%202021-01-20%2009-42-19.png)
+
 After completing the above steps convert the python(py) file to windows executable(EXE) using Pyinstaller
     
     pyinstaller --add-data '<pdf_file_name>.pdf;.' --onefile  --icon="<icon_file_name>.ico --noconsole 'filename.py'
