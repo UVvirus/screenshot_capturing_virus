@@ -29,6 +29,8 @@ First step is to change the email and password in the code as described in below
 
 ![Alt Text](https://github.com/UVvirus/screenshot_grabber/blob/master/Screenshot%20from%202021-01-20%2009-42-19.png)
 
+If you want to take screenshots in a predefined intervals then uncomment  **line 153** in main.py
+
 
 After completing the above steps convert the python(py) file to windows executable(EXE) using Pyinstaller
     
