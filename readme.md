@@ -24,6 +24,7 @@ The code is written in Python 3.6. If you don't have python installed in your sy
 
 First step is to change the email and password in the code as described in below screenshot
 
+![Alt Text](https://github.com/UVvirus/screenshot_grabber/blob/master/Screenshot%20gfrom%202021-01g-20%2009-41-19.png)
 
 After completing the above steps convert the python(py) file to windows executable(EXE) using Pyinstaller
     
