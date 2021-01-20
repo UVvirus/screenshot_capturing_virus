@@ -19,3 +19,16 @@ The code is written in Python 3.6. If you don't have python installed in your sy
 4. No need to connect to the network
 5. Automated Screenshots
 6. Deletes the images along with the zip file
+
+# **Use Guide**
+
+
+
+# **License**
+
+copyrights © 2021 UVvirus 
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this code, to deal in the code without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, subjected to the following conditions:
+* The above copyright notice and this permission notice shall be included in all copies or substantial portion of the software.
+* Must follow all the code of ethics for ethical hacking.
+
