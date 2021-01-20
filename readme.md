@@ -25,6 +25,11 @@ The code is written in Python 3.6. If you don't have python installed in your sy
 First step is to change the email and password in the code as described in below screenshot
 
 
+After completing the above steps convert the python(py) file to windows executable(EXE) using Pyinstaller
+    
+    pyinstaller --add-data '<pdf_file_name>.pdf;.' --onefile  --icon="<icon_file_name>.ico --noconsole 'filename.py'
+
+
 
 # **License**
 
