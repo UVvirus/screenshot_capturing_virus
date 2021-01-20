@@ -149,6 +149,8 @@ def take_screenshot():
             convert_to_zip(path)
 
             check_for_internet_connection()
+            
+            #time.sleep(10)
 
 
 
