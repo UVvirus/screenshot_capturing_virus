@@ -1,6 +1,6 @@
 # **Overview**
 
-Once the payload exploits the target system, in our case, a Windows 10 system. It starts to take screenshots in a predefined intervals (link to usage guide) on the compromised computer and save the image to a predefined directory on the compromised computer. It then compares the images and deletes one image if both the images are similar and creates a zip file. Now it checks whether the system has internet connectivity, if yes, then it sends the zip file in the email (change email guide) and then deletes the images along with the zip files and starts fresh again. If the system does not have internet connectivity it continues to take screenshots and checks for the internet connectivity again and so the loop goes on.
+Once the payload exploits the target system, in our case, a Windows 10 system. It starts to take screenshots in a predefined intervals (see use guide for defining interval) on the compromised computer and save the image to a predefined directory on the compromised computer. It then compares the images and deletes one image if both the images are similar and creates a zip file. Now it checks whether the system has internet connectivity, if yes, then it login's to a predefined email id and sends the zip file in the email (see use guide for defining email id) and then deletes the images along with the zip files and starts fresh again. If the system does not have internet connectivity it continues to take screenshots and checks for the internet connectivity again and so the loop goes on.
 
 # **Technologies**
   * Python 3.6
@@ -29,10 +29,14 @@ First step is to change the email and password in the code as described in below
 
 ![Alt Text](https://github.com/UVvirus/screenshot_grabber/blob/master/Screenshot%20from%202021-01-20%2009-42-19.png)
 
+
 After completing the above steps convert the python(py) file to windows executable(EXE) using Pyinstaller
     
     pyinstaller --add-data '<pdf_file_name>.pdf;.' --onefile  --icon="<icon_file_name>.ico --noconsole 'filename.py'
 
+spoof the extension using this
+
+     https://github.com/henriksb/ExtensionSpoofer
 
 
 
