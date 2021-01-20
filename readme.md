@@ -7,7 +7,7 @@ Once the payload exploits the target system, in our case, a Windows 10 system. I
 
 # **Setup**
 
-The code is written in Python 3.6. If you don't have python installed in your system you can find it here. To install the required packages and libraries, run this command in the project directory after cloning the repository.
+The code is written in Python 3.6. If you don't have python installed in your system you can find it [here](https://www.python.org/downloads/). To install the required packages and libraries, run this command in the project directory after cloning the repository.
 
 
     pip install -r requirements.txt
@@ -21,6 +21,8 @@ The code is written in Python 3.6. If you don't have python installed in your sy
 6. Deletes the images along with the zip file
 
 # **Use Guide**
+
+First step is to change the email and password in the code as described in below screenshot
 
 
 
