@@ -31,11 +31,4 @@ After completing the above steps convert the python(py) file to windows executab
 
 
 
-# **License**
-
-copyrights © 2021 UVvirus 
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this code, to deal in the code without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, subjected to the following conditions:
-* The above copyright notice and this permission notice shall be included in all copies or substantial portion of the software.
-* Must follow all the code of ethics for ethical hacking.
 
